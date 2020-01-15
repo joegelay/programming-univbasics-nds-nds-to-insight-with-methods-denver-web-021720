@@ -29,9 +29,8 @@ def directors_totals(nds)
     result[director] += gross_for_director(nds[director_counter])
     director_counter += 1
   end
-   puts result
+
   return result
- 
 end
 
 directors_totals(directors_database)
